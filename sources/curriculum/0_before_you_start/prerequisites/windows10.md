@@ -56,6 +56,13 @@ We recommend the following code editors or IDEs:
 * Atom - `scoop install atom`
 * PyCharm - `scoop install pycharm`
 
+Note: for some of those, you may need to install additional scoop manifestos:
+```powershell
+scoop bucket add extras
+scoop bucket update
+scoop install 7zip
+```
+
 ### Terminal
 
 The default `cmd` and Powershell terminals in Windows are quite old. Fortunately, Microsoft recently released a really nice Terminal that you can simply install from [this link](https://www.microsoft.com/store/productId/9N0DX20HK701).
